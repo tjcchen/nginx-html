@@ -18,7 +18,6 @@ docker run -d -p 8000:80 -v /Users/chen/nginx-html:/usr/share/nginx/html --name 
 
 # static html page is available now
 Index: http://localhost:8000/
-
 About: http://localhost:8000/about.html
 
 # stop your docker container
