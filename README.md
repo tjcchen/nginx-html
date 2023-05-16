@@ -18,6 +18,8 @@ docker run -d -p 8000:80 -v /Users/chen/nginx-html:/usr/share/nginx/html --name 
 
 # -d purpose: run a Container that is detached in the background.
 
+# -p purpose: host port to bind a Container port.
+
 # -v purpose: volume to bind and mount from the host OS into the Accesser Container persistent area. The host directory must be writeable, the directory cannot be shared between Container instances and the directory must be unique.
 
 # static html page is available now
